@@ -1,0 +1,60 @@
+% Heuristic head rules for extraction of elementary trees from the RRGbank
+
+ROOT right-to-left CLAUSE
+
+SENTENCE left-to-right CLAUSE CLAUSE_#WRAP_T#
+SENTENCE-PERI left-to-right CLAUSE
+
+CLAUSE left-to-right NUC CORE CLAUSE PrCS
+CLAUSE-PERI left-to-right CORE CLAUSE PrCS
+CLAUSE-PERI_#WRAP_T# left-to-right CORE_#WRAP_B# CORE CLAUSE PrCS
+CLAUSE-REL right-to-left NUC CORE CLAUSE
+CLAUSE_#WRAP_T# left-to-right CLAUSE_#WRAP_B# NUC SENTENCE CORE_#WRAP_B# CLAUSE CORE
+CLAUSE_#WRAP_B# left-to-right CORE
+
+CORE left-to-right CORE_#WRAP_B# CLAUSE_#WRAP_B# NUC CORE AP
+CORE left-to-right NP CLAUSE
+CORE-PERI right-to-left CORE
+CORE-PERI left-to-right NUC NP CLAUSE
+CORE_#WRAP_B# left-to-right NUC NP CLAUSE
+
+
+NUC right-to-left NUC V AP NP RP ADVP QP AUX-TNS AUX PP
+NUC left-to-right V
+
+NP left-to-right CORE_N NP PRO PRO-DEM
+NP-PERI left-to-right CORE_N NP PRO PRO-DEM
+
+CORE_N right-to-left NUC_N NP NUC_Q NUC_A QP-PERI N CORE_Q NUC_P CORE_N NUC_ADV
+NUC_N right-to-left N NUC_N PRO
+
+CORE_N-WH right-to-left NUC_N NP NUC_Q NUC_A QP-PERI N CORE_Q NUC_P AP-WH
+AP-WH left-to-right CORE_A-WH
+CORE_A-WH left-to-right NUC_A
+CORE_P left-to-right NUC_P
+
+ADVP left-to-right CORE_ADV
+ADVP-PERI left-to-right CORE_ADV
+
+AP-PERI left-to-right CORE_A
+AP left-to-right CORE_A
+CORE_A left-to-right NUC_A
+NUC_A left-to-right A V-GER
+
+
+CORE_ADV right-to-left NUC_ADV NUC_A NUC
+NUC_ADV right-to-left ADV
+
+QP right-to-left CD
+CORE_Q right-to-left NUC_Q QNT
+NUC_Q right-to-left QNT
+
+LDP left-to-right SENTENCE
+PoDP left-to-right ADVP SENTENCE CLAUSE CORE NUC
+PrDP right-to-left CLAUSE_#WRAP_T# NP SENTENCE CLAUSE CORE NUC
+PrCS right-to-left NP SENTENCE CLAUSE CORE NUC
+
+PODP left-to-right ADVP SENTENCE CLAUSE CORE NUC
+PODP right-to-left NP SENTENCE CLAUSE CORE NUC
+
+CLAUSE_TW%% left-to-right CORE
