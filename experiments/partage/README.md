@@ -6,6 +6,7 @@ Prerequisites
 ```bash
 pip install -r requirements.txt
 ```
+You might need to additionally install [disco-dop][discodop-install].
 
 ### ParTAGe for TWG
 
@@ -32,3 +33,4 @@ produce
 
 
 [partage-install]: https://github.com/kawu/partage-twg/tree/internal-wrapping-dev#installation "ParTAGe for TWG installation instructions"
+[discodop-install]: https://github.com/andreasvc/disco-dop#installation "DiscoDOP installation"
