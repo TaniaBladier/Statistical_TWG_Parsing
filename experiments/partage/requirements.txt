@@ -1,0 +1,2 @@
+produce==0.4.1
+git+https://github.com/kawu/partage-sup@master#egg=supertagger
