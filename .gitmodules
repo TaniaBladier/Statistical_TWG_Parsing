@@ -1,3 +1,6 @@
 [submodule "experiments/TWG"]
 	path = experiments/TWG
 	url = git@github.com:kawu/Data_for_Statistical_TWG_Parsing.git
+[submodule "experiments/discoparset/discoparset"]
+	path = experiments/discoparset/discoparset
+	url = https://gitlab.com/mcoavoux/discoparset.git
