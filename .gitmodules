@@ -1,0 +1,3 @@
+[submodule "experiments/TWG"]
+	path = experiments/TWG
+	url = git@github.com:kawu/Data_for_Statistical_TWG_Parsing.git
