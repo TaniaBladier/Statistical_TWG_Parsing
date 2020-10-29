@@ -1,8 +1,9 @@
 TODO: Update ReadMe
 
-# TWG_extraction_percolation_tables
-Percolation tables for head and modifier distinction, as described in COLING 2020 paper:
+# Statistical Parsing of Tree Wrapping Grammars
+Code and Percolation tables for head and modifier distinction, as described in COLING 2020 paper:
 
+```
 @InProceedings{Bladier-et-al:20,
   author = {Tatiana Bladier and Jakub Waszczuk and Laura Kallmeyer},
   title = "{Statistical Parsing of Tree Wrapping Grammars}",
@@ -11,3 +12,4 @@ Percolation tables for head and modifier distinction, as described in COLING 202
   month = {December},
   note = {To appear.}
   }
+```
