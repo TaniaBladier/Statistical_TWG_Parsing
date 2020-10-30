@@ -10,17 +10,21 @@ You might need to additionally install [disco-dop][discodop-install].
 
 ### ParTAGe for TWG
 
-Follow the [installation instructions][partage-install] to install
-`partage-twg`.
-
-<!--
 Install [Haskell Stack](https://docs.haskellstack.org/en/stable/README/), then:
+```bash
+git submodule update --init --recursive partage-twg
+cd partage-twg
+stack install
+```
+<!--
 ```bash
 git clone https://github.com/kawu/partage-twg.git
 cd partage-twg
 stack install
 ```
 -->
+
+See also the [partage installation instructions][partage-install].
 
 
 Reproduction

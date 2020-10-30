@@ -4,3 +4,6 @@
 [submodule "experiments/discoparset/discoparset"]
 	path = experiments/discoparset/discoparset
 	url = https://gitlab.com/mcoavoux/discoparset.git
+[submodule "experiments/partage/partage-twg"]
+	path = experiments/partage/partage-twg
+	url = git@github.com:kawu/partage-twg.git
